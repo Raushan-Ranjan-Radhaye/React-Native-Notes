@@ -7,6 +7,8 @@ import Form from './compnonets/Form';
 import MyFlatList from './compnonets/FlatList';
 import Grid from './compnonets/Grid';
 import LoopwithFalist from './compnonets/LoopwithFalist';
+import SectionListComponent from './compnonets/SectionList';
+import Class from './compnonets/Class';
 const App = () => {
   const fruits = () => {
     console.warn('Function called');
@@ -40,7 +42,8 @@ const App = () => {
       <MyFlatList/> */}
       {/* <Grid/> */}
       {/* <LoopwithFalist/> */}
-      
+      {/* <SectionListComponent/> */}
+        <Class/>
     </View>
   );
 };
