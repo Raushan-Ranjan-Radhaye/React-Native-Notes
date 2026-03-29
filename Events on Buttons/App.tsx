@@ -9,6 +9,12 @@ import Grid from './compnonets/Grid';
 import LoopwithFalist from './compnonets/LoopwithFalist';
 import SectionListComponent from './compnonets/SectionList';
 import Class from './compnonets/Class';
+import SateProducts from './compnonets/Sate&Products';
+import LifeCycle from './compnonets/LifeCycle';
+import UseEffect from './compnonets/UseEffect';
+import ShowHide from './compnonets/ShowHide';
+import Unmount from './compnonets/Unmount';
+import ResponsiveUI from './compnonets/ResponsiveUI';
 const App = () => {
   const fruits = () => {
     console.warn('Function called');
@@ -19,8 +25,8 @@ const App = () => {
   };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Hello</Text>
+    <View >
+      {/* <Text style={styles.title}>Hello</Text> */}
       {/* <Button
         title="on press"
         onPress={() => fruits1('Hello Raushan')}
@@ -43,26 +49,20 @@ const App = () => {
       {/* <Grid/> */}
       {/* <LoopwithFalist/> */}
       {/* <SectionListComponent/> */}
-        <Class/>
+        {/* <Class/> */}
+        {/* <SateProducts/> */}
+        {/* <LifeCycle/> */}
+        {/* <UseEffect/> */}
+        {/* <ShowHide/> */}
+        {/* <Unmount/> */}
+
+        <ResponsiveUI/>
+        <ResponsiveUI/>
+
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 20,
-  },
-  title: {
-    fontSize: 24,
-    color: 'red',
-    marginBottom: 20,
-  },
-  buttonContainer: {
-    marginTop: 10,
-  },
-});
+
 
 export default App;
